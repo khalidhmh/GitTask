@@ -1,1 +1,1 @@
-tooz fakom
+tooz feikom
