@@ -1,14 +1,20 @@
 
-class helloWorld {
+class HelloJava {
 
-    public static void helloWorldprintfunc() {
-        System.out.println("Hello, World! from Ahmeds side");
+    public static void main(String[] args) {
+        printHelloWorld();
+        Cpp c1 = new Cpp();
+        c1.printHelloCpp();
+    }
+
+    public static void printHelloWorld() {
+        System.out.println("Hello ,World");
     }
 }
 
-public class HelloWorld {
+class Cpp {
 
-    public static void main(String[] args) {
-        helloWorld.helloWorldprintfunc();
+    public static void printHelloCpp() {
+        System.out.println("Hello Cpp!from ahmed");
     }
 }
