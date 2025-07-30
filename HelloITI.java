@@ -10,8 +10,4 @@ public class HelloITI {
         num2 =in.nextInt();
         System.out.println(num1+" * "+num2+" = " +num1*num2);
      }
-<<<<<<< HEAD
-}
 
-
->>>>>>> 2f7f8d830b192d2a1778c9a1ded8ffdef4887490
